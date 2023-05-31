@@ -1,0 +1,8 @@
+services:
+  bot:
+    image: ghcr.io/southball/slack-everything-bot:latest
+    restart: always
+    environment:
+      SLACK_APP_TOKEN:
+      SLACK_BOT_TOKEN:
+      SLACK_CHANNEL_ID:
